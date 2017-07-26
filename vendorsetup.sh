@@ -1,0 +1,4 @@
+add_lunch_combo lineage_X008D-eng
+add_lunch_combo lineage_X008D-userdebug
+add_lunch_combo lineage_X008D-user
+
