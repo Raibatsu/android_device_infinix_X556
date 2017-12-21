@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DEVICE=X008D
-export VENDOR=asus
+export DEVICE=x556
+export VENDOR=Infinix
 
 if [ $# -eq 0 ]; then
   SRC=adb

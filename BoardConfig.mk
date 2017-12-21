@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/asus/X008D
+LOCAL_PATH := device/infinix/x556
 
 BOARD_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 BOARD_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
@@ -34,14 +34,14 @@ MTK_K64_SUPPORT = yes
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += device/asus/X008D/cmhw
+BOARD_HARDWARE_CLASS += device/infinix/x556/cmhw
 
 # Deodex
 #WITH_DEXPREOPT := false
 WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 DONT_DEXPREOPT_PREBUILTS := true
 
-#FORCE_32_BIT = true
+#FORCE_32_BIT = false
 
 # Architecture
 ifeq ($(FORCE_32_BIT),true)
@@ -89,7 +89,7 @@ BOARD_KERNEL_CMDLINE = bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_OFFSET = 0x00080000
 TARGET_USES_64_BIT_BINDER := true
 endif
-BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_TAGS_OFFSET) --board asus_X008D_V0
+BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_TAGS_OFFSET) --board infinix_x556_V0
 
 BOARD_CUSTOM_BOOTIMG := true
 
@@ -106,7 +106,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE:=12353781760
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := asus,WW_Phone,ASUS_X008,full_E281L
+TARGET_OTA_ASSERT_DEVICE := infinix, infinix x556, x556, Infinix X556, HOT 4 PRO, Infinix HOT 4 Pro, Infinix HOT 4 PRO, Infinix Hot 4 Pro
 
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
@@ -143,7 +143,7 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 WITH_SU := true
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/asus/X008D/ril
+BOARD_RIL_CLASS := ../../../device/infinix/x556/ril
 
 BOARD_DISABLE_HW_ID_MATCH_CHECK := true
 

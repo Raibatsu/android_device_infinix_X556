@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/asus/X008D
+LOCAL_PATH := device/infinix/x556
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

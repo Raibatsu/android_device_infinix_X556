@@ -21,4 +21,4 @@ include $(CLEAR_VARS)
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
 # include the non-open-source counterpart to this file
--include vendor/asus/X008D/AndroidBoardVendor.mk
+-include vendor/infinix/x556/AndroidBoardVendor.mk

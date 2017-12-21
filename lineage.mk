@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/asus/X008D
+LOCAL_PATH := device/infinix/x556
 
 # Inherit some common Lineage OS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-$(call inherit-product-if-exists, vendor/asus/X008D/X008D-vendor.mk)
+$(call inherit-product-if-exists, vendor/infinix/x556/x556-vendor.mk)
 
 # Device branding
-PRODUCT_DEVICE := X008D
-PRODUCT_NAME := lineage_X008D
-PRODUCT_BRAND := ASUS
-PRODUCT_MANUFACTURER := ASUS
-PRODUCT_MODEL := Asus ZenFone 3 Max
+PRODUCT_DEVICE := x556
+PRODUCT_NAME := lineage_x556
+PRODUCT_BRAND := Infinix
+PRODUCT_MANUFACTURER := Infinix
+PRODUCT_MODEL := Infinix HOT 4 PRO
 
 PRODUCT_GMS_CLIENTID_BASE := android-google
