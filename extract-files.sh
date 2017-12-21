@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DEVICE=X556
+export DEVICE=x556
 export VENDOR=Infinix
 
 if [ $# -eq 0 ]; then

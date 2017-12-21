@@ -1,11 +1,11 @@
 #
-# system.prop for Asus ZenFone 3 Max
+# system.prop for Infinix HOT 4 PRO X556
 #
 
 # Mediatek Chip
-persist.mtk.wcn.combo.chipid=0x321
+persist.mtk.wcn.combo.chipid=-1
 service.wcn.driver.ready=no
-service.wcn.coredump.mode=2
+service.wcn.coredump.mode=0
 ro.mediatek.chip_ver=S01
 ro.mediatek.platform=MT6737T
 ro.mediatek.version.sdk=4

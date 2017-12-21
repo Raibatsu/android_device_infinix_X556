@@ -1,8 +1,8 @@
  [
   {
     "remote": "github",
-    "repository": "mosya234/android_vendor_asus_X008D",
+    "repository": "Raibatsu/android_vendor_infinix_X556",
     "target_path": "vendor/infinix/X556",
-    "branch": "LineageOS-14.1"
+    "branch": "master"
   }
-] 
+]
