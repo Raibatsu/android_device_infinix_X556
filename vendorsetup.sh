@@ -1,0 +1,4 @@
+add_lunch_combo lineage_X556-eng
+add_lunch_combo lineage_X556-userdebug
+add_lunch_combo lineage_X556-user
+
