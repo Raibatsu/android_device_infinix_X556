@@ -27,7 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product-if-exists, vendor/infinix/x556/x556-vendor.mk)
 
 # Device branding
-PRODUCT_DEVICE := X556
+PRODUCT_DEVICE := x556
 PRODUCT_NAME := lineage_x556
 PRODUCT_BRAND := Infinix
 PRODUCT_MANUFACTURER := Infinix

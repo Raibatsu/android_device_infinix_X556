@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEVICE=X556
-VENDOR=Infinix
+VENDOR=infinix
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk

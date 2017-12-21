@@ -1,8 +1,8 @@
  [
   {
     "remote": "github",
-    "repository": "Raibatsu/android_vendor_infinix_X556",
-    "target_path": "vendor/infinix/X556",
+    "repository": "Raibatsu/android_vendor_infinix_x556",
+    "target_path": "vendor/infinix/x556",
     "branch": "master"
   }
 ]
